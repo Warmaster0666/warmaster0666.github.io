@@ -96,7 +96,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: blue;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -154,6 +154,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
