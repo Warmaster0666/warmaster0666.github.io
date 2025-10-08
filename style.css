@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 a:link {
-  color: green;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -154,6 +154,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
