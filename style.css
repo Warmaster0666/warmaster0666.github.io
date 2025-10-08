@@ -1,0 +1,131 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #eaeaea;
+  background: linear-gradient(#0a0a0a, #1a1a1a), url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('background.jpg') center/cover no-repeat;
+  opacity: 0.1; 
+  pointer-events: none;
+  z-index: -1;
+}
+
+header {
+  background-color: #050505;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #5a0000;
+  position: relative;
+  height: 80px;
+}
+
+.logo-left, .logo-right {
+  position: absolute;
+  top: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.logo-left { left: 10px; }
+.logo-right { right: 10px; }
+
+.logo-left img,
+.logo-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+header h1 {
+  font-family: 'Gothic', serif;
+  letter-spacing: 2px;
+  color: #eaeaea;
+  text-shadow: 0 0 5px #ff0000;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+  color: #d32f2f;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+main {
+flex: 1;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+section {
+  border-top: 1px solid #5a0000;
+  margin-top: 2rem;
+  padding-top: 2rem;
+text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #050505;
+  border-top: 1px solid #5a0000;
+  margin-top: 2rem;
+}
+
+.hover-change {
+  position: relative;
+}
+
+.hover-change::after {
+  content: "NOT THIS ONE DUMBASS!!!";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #d32f2f;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-change:hover::after {
+  opacity: 1;
+}
+
+.hover-change:hover {
+  color: transparent;
+}
