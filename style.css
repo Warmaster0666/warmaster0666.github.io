@@ -83,12 +83,30 @@ nav a:hover {
   text-shadow: 0 0 8px #ff0000;
 }
 
-p a {
-  color: #eaeaea;
-  text-decoration: none;
-  margin: 0 1rem;
-  transition: color 0.3s, text-shadow 0.3s;
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
 }
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
 main {
 flex: 1;
@@ -136,5 +154,6 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
