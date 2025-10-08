@@ -71,13 +71,6 @@ nav {
   text-align: center;
 }
 
-nav {
-  position: absolute;
-  bottom: 5px;
-  width: 100%;
-  text-align: center;
-}
-
 nav a {
   color: #eaeaea;
   text-decoration: none;
@@ -86,6 +79,18 @@ nav a {
 }
 
 nav a:hover {
+  color: #d32f2f;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+.hero a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.hero a:hover {
   color: #d32f2f;
   text-shadow: 0 0 8px #ff0000;
 }
@@ -136,6 +141,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
