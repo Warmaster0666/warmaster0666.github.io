@@ -83,14 +83,14 @@ nav a:hover {
   text-shadow: 0 0 8px #ff0000;
 }
 
-.hero a {
+section a {
   color: #eaeaea;
   text-decoration: none;
   margin: 0 1rem;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
-.hero a:hover {
+section a:hover {
   color: #d32f2f;
   text-shadow: 0 0 8px #ff0000;
 }
@@ -141,6 +141,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
