@@ -71,14 +71,14 @@ nav {
   text-align: center;
 }
 
-nav a {
+a {
   color: #eaeaea;
   text-decoration: none;
   margin: 0 1rem;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
-nav a:hover {
+a:hover {
   color: #d32f2f;
   text-shadow: 0 0 8px #ff0000;
 }
@@ -90,12 +90,6 @@ a:link {
 }
 
 a:visited {
-  color: #eaeaea;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:hover {
   color: #eaeaea;
   background-color: transparent;
   text-decoration: underline;
@@ -154,6 +148,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
