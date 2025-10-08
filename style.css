@@ -71,32 +71,23 @@ nav {
   text-align: center;
 }
 
-a {
+nav {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
   color: #eaeaea;
   text-decoration: none;
   margin: 0 1rem;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
-.hero:visited {
-  color: #eaeaea;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.hero:hover {
-  color: #eaeaea;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.hero:link {
-  color: #eaeaea;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.hero:active {
-  color: #eaeaea;
-  background-color: transparent;
-  text-decoration: underline;
+nav a:hover {
+  color: #d32f2f;
+  text-shadow: 0 0 8px #ff0000;
 }
 
 main {
@@ -145,6 +136,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
