@@ -84,25 +84,25 @@ nav a:hover {
 }
 
 a:link {
-  color: white;
+  color: #eaeaea;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
-  color: white;
+  color: #eaeaea;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:hover {
-  color: blue;
+  color: #eaeaea;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: white;
+  color: #eaeaea;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -154,6 +154,7 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
 
 
