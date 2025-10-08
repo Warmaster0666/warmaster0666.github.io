@@ -83,7 +83,7 @@ nav a:hover {
   text-shadow: 0 0 8px #ff0000;
 }
 
-a {
+p a {
   color: #eaeaea;
   text-decoration: none;
   margin: 0 1rem;
@@ -136,4 +136,5 @@ footer {
 .hover-change:hover {
   color: transparent;
 }
+
 
